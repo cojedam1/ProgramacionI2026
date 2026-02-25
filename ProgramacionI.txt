@@ -11,13 +11,13 @@ Git es un sistema (una consola) de control de versiones, diseñado para registra
 
 -git commit -m "mensaje": Guarda los cambios que se encuentran en el área de preparación dentro del historial del repositorio local, acompañados de un mensaje descriptivo.
 
+-git push: Se utiliza para cargar o transmitir los commits (cambios confirmados) desde el repositorio local hacia un repositorio remoto.
+
 -git log: Muestra el historial cronológico detallado de todos los commits (confirmaciones) realizados en la rama actual.
 
 -git clone <url>: Crea una copia local exacta de un repositorio remoto existente.
 
 -git pull: Descarga los cambios más recientes del repositorio remoto y los fusiona automáticamente con la rama local actual.
-
--git push: Se utiliza para cargar o transmitir los commits (cambios confirmados) desde el repositorio local hacia un repositorio remoto.
 
 
 3. ¿Cuál es la diferencia entre Git y Github?
@@ -34,6 +34,7 @@ Git es un sistema (una consola) de control de versiones, diseñado para registra
 -git branch -M main
 -git remote add origin git@github.com:cojedam1/ProgramacionI2026.git
 -git push -u origin main
+
 
 5. ¿Qué es una branch  ?
 Una branch es una línea de desarrollo paralela e independiente dentro de un repositorio. Permite que los desarrolladores creen una copia del proyecto original para trabajar en nuevas características, realizar pruebas o corregir errores en un entorno aislado. Una vez que el trabajo en la rama secundaria ha concluido y es estable, sus cambios pueden ser integrados de regreso a la rama principal (mediante un proceso conocido como merge), garantizando así que el código base principal no se rompa durante el proceso de desarrollo.
